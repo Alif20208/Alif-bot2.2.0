@@ -1,12 +1,15 @@
-module.exports = {
-  config: {
-    name: "bom",
-    version: "1.0.1",
-    permission: 0,
-    credits: "Rahad",
-    description: "Send a message multiple times with a delay after an initial wait.",
-    cooldowns: 5
-  },
+module.exports.config = {
+name: "bom",
+  version: "",
+  permssion: 2,
+  credits: "Nayan",
+  description: "",
+  category: "bom",
+  usages: "admin",
+  prefix: true,
+  cooldowns: 5,
+  dependencies: "",
+};
 
   start: async function({ api, event, args }) {
     var mgs = `𝗔𝘂𝘁𝗼 𝗥𝗲𝗽𝗹𝘆
