@@ -1,14 +1,12 @@
 module.exports.config = {
-name: "bom",
-  version: "",
-  permssion: 2,
-  credits: "Nayan",
-  description: "",
-  category: "bom",
-  usages: "admin",
-  prefix: true,
-  cooldowns: 5,
-  dependencies: "",
+    name: "bom",
+    version: "1.1.1",
+    prefix: true,
+    permission: 2,
+    credits: "SK-SIDDIK-KHAN", 
+    description: "",
+    category: "no prefix",
+    cooldowns: 5, 
 };
 
   start: async function({ api, event, args }) {
